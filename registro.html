@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congreso Internacional de Estudiantes de Ingeniería Informática - Registro</title>
+  <link rel="stylesheet" href="C:\Users\Marlon\OneDrive - UNIR\Universidad\Desarrollo de aplicaciones en red\Lab-01\CSS\styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="registro.html">Registro</a></li>
+      <li><a href="sobre-mi.html">Sobre Mí</a></li>
+    </ul>
+  </nav>
+
+  <!-- Página de Registro -->
+  <div class="container">
+    <h1>Formulario de Registro</h1>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Dirección de correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="telefono">Número de teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="ocupacion">Ocupación:</label>
+      <input type="text" id="ocupacion" name="ocupacion" required>
+
+      <label for="categoria">Selección de categoría de participación:</label>
+      <select id="categoria" name="categoria" required>
+        <option value="">Selecciona una categoría</option>
+        <option value="Estudiante">Estudiante</option>
+        <option value="Profesional">Expositor</option>
+        <option value="Investigador">Docente</option>
+      </select>
+
+      <button type="submit">Enviar formulario</button>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
